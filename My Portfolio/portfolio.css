@@ -1,0 +1,135 @@
+.page {
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.skills {
+    padding-top: 50%;
+    text-align: center;
+}
+
+.skill {
+    color: #06195C;
+    text-align: center;
+    font-size: 30px;
+}
+
+.narvebar a {
+    float: left;
+    color: BLACK;
+    text-align: center;
+    padding: 30px;
+}
+
+.narvebar a:hover {
+    background-color: cyan;
+    color: cornflowerblue;
+}
+
+.narvebar a.active {
+    background-color: black;
+    color: darkgrey;
+}
+
+.head {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 100px;
+}
+
+.homepage {
+    text-align: center;
+    margin: 150px;
+}
+
+.aboutpage {
+    background-color: #9ECCCC;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    border-radius: 0px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.info {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 20;
+    padding-top: 50px;
+}
+
+.me {
+    padding-top: 50px;
+    margin-bottom: 120px;
+}
+
+.about {
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.picture {
+    height: 310px;
+    width: 310px;
+    float: left;
+    border-radius: 50%;
+}
+
+.projectpage {
+    background-color: #F0F0F0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+
+.contactpage {
+    background-color: #9ECCCC;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 12%;
+    margin-bottom: 150px;
+}
+
+.findme {
+    text-align: center;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+}
+
+.column {
+    float: left;
+    width: 60%;
+    padding: 20px;
+}
+
+
+/* Clear floats after image containers */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 60%;
+    padding: 20px;
+}
